@@ -1,9 +1,9 @@
-package com.example.taketook2.ui.home
+package com.example.taketook2.ui.notifications
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class ProfileViewModel : ViewModel() {
 
 }
