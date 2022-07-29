@@ -15,18 +15,18 @@
         android:id="@+id/navigation_services"
         android:name="com.example.taketook2.ui.dashboard.ServicesFragment"
         android:label="@string/services"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_services" />
 
     <fragment
         android:id="@+id/navigation_profile"
         android:name="com.example.taketook2.ui.notifications.ProfileFragment"
         android:label="@string/profile"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/navigation_map"
         android:name="com.example.taketook2.ui.notifications.ProfileFragment"
         android:label="@string/profile"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_profile" />
 
 </navigation>
