@@ -1,4 +1,4 @@
-package com.example.taketook2.ui.notifications
+package com.example.taketook2.ui.profile
 
 import android.os.Bundle
 import android.view.LayoutInflater
