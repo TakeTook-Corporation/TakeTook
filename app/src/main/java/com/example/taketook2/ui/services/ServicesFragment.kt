@@ -7,6 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.taketook2.databinding.FragmentServicesBinding
 
+/**
+ * @author y.gladkikh
+ */
 class ServicesFragment : Fragment() {
 
     private var _binding: FragmentServicesBinding? = null

@@ -9,6 +9,9 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.taketook2.databinding.ActivityMainBinding
 
+/**
+ * @author y.gladkikh
+ */
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

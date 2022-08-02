@@ -7,6 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.taketook2.databinding.FragmentHomeBinding
 
+/**
+ * @author y.gladkikh
+ */
 class HomeFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null

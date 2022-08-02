@@ -7,6 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.taketook2.databinding.FragmentProfileBinding
 
+/**
+ * @author y.gladkikh
+ */
 class ProfileFragment : Fragment() {
 
     private var _binding: FragmentProfileBinding? = null

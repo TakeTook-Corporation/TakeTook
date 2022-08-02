@@ -7,6 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.taketook2.databinding.FragmentMapBinding
 
+/**
+ * @author y.gladkikh
+ */
 class MapFragment : Fragment() {
 
     private var _binding: FragmentMapBinding? = null
