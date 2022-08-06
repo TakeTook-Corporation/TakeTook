@@ -1,4 +1,4 @@
-package com.example.taketook2.ui.home.recycler
+package com.example.taketook2.ui.home.recycler.stories
 
 import com.example.emoji.fragments.delegateItem.DelegateItem
 

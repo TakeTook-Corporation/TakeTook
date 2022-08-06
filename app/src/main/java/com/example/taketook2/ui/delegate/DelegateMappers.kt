@@ -1,9 +1,8 @@
 package com.example.taketook2.ui.delegate
 
 import com.example.emoji.fragments.delegateItem.DelegateItem
-import com.example.taketook2.ui.home.recycler.StoryDelegateItem
-import com.example.taketook2.ui.home.recycler.StoryModel
-import java.util.*
+import com.example.taketook2.ui.home.recycler.stories.StoryDelegateItem
+import com.example.taketook2.ui.home.recycler.stories.StoryModel
 
 fun List<StoryModel>.toDelegateItemList(): List<DelegateItem> {
     val delegateItemList: MutableList<DelegateItem> = mutableListOf()

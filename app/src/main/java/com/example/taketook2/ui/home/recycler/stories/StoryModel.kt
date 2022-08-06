@@ -1,4 +1,4 @@
-package com.example.taketook2.ui.home.recycler
+package com.example.taketook2.ui.home.recycler.stories
 
 /**
  * @author y.gladkikh

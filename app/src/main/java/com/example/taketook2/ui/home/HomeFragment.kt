@@ -10,8 +10,8 @@ import com.example.taketook2.STUB_ICON_URL
 import com.example.taketook2.STUB_SITE_LINK
 import com.example.taketook2.databinding.FragmentHomeBinding
 import com.example.taketook2.ui.delegate.toDelegateItemList
-import com.example.taketook2.ui.home.recycler.StoryDelegate
-import com.example.taketook2.ui.home.recycler.StoryModel
+import com.example.taketook2.ui.home.recycler.stories.StoryDelegate
+import com.example.taketook2.ui.home.recycler.stories.StoryModel
 
 /**
  * @author y.gladkikh

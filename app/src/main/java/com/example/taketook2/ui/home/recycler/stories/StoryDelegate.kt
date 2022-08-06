@@ -1,6 +1,5 @@
-package com.example.taketook2.ui.home.recycler
+package com.example.taketook2.ui.home.recycler.stories
 
-import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
