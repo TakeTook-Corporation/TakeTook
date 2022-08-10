@@ -13,10 +13,10 @@ import com.example.taketook2.ui.delegate.AdapterDelegate
 /**
  * @author y.gladkikh
  */
-class StoryDelegate : AdapterDelegate{
+class StoryDelegate : AdapterDelegate {
 
     override fun onCreateViewHolder(parent: ViewGroup): RecyclerView.ViewHolder =
-       ViewHolder(StroriesCardItemBinding.inflate(LayoutInflater.from(parent.context), parent, false))
+        ViewHolder(StroriesCardItemBinding.inflate(LayoutInflater.from(parent.context), parent, false))
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, item: DelegateItem, position: Int) {
         (holder as ViewHolder).bind(item.content() as StoryModel)
@@ -24,9 +24,9 @@ class StoryDelegate : AdapterDelegate{
 
     override fun isOfViewType(item: DelegateItem): Boolean = item is StoryDelegateItem
 
-    class ViewHolder(private val binding : StroriesCardItemBinding) : RecyclerView.ViewHolder(binding.root){
+    class ViewHolder(private val binding: StroriesCardItemBinding) : RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(model : StoryModel) {
+        fun bind(model: StoryModel) {
             Glide.with(itemView.context)
                 .load(model.iconUrl)
                 .error(R.drawable.spcx)

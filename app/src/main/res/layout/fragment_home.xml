@@ -11,23 +11,21 @@
         android:id="@+id/advertisement_image"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/spcx"
         android:scaleType="centerCrop"
-        />
+        android:src="@drawable/spcx" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/stories_list"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:orientation="horizontal"
-        />
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/nav_grid"
-        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-        app:spanCount="2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
