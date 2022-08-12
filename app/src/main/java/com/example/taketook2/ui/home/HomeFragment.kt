@@ -38,6 +38,11 @@ class HomeFragment : Fragment() {
         submitStubData()
     }
 
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+
     private fun submitStubData() {
         val stubList = listOf(
             StoryModel(
@@ -73,11 +78,6 @@ class HomeFragment : Fragment() {
         )
 
         storiesAdapter.submitList(stubList.toDelegateItemList())
-    }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
     }
 
     private fun initAdapter() {
