@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.example.taketook2.ui.profile.ProfileFragment"
+        android:name="com.example.taketook2.ui.profile.SignInFragment"
         android:label="@string/profile"
         tools:layout="@layout/fragment_profile" />
 
