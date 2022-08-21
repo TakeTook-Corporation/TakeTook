@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.taketook2.R
-import com.example.taketook2.databinding.FragmentProfileBinding
 import com.example.taketook2.databinding.FragmentProfileFlowBinding
 
 /**
@@ -29,10 +28,11 @@ class ProfileFlowFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-            parentFragmentManager.beginTransaction()
+        parentFragmentManager.beginTransaction()
+            .setReorderingAllowed(true)
             .replace(R.id.fragmentContainer, SignInFragment())
             .addToBackStack(null)
-            .commit();
+            .commit()
     }
 
     override fun onDestroyView() {
