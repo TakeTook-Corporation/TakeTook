@@ -1,4 +1,4 @@
-package com.example.taketook2.ui.profile
+package com.example.taketook2.ui.profile.registration
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -1,4 +1,4 @@
-package com.example.taketook2.ui.profile
+package com.example.taketook2.ui.profile.signin
 
 import android.os.Bundle
 import android.text.TextWatcher

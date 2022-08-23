@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.taketook2.R
 import com.example.taketook2.databinding.FragmentProfileFlowBinding
+import com.example.taketook2.ui.profile.signin.SignInFragment
 
 /**
  * @author y.gladkikh
