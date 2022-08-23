@@ -7,7 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.Fragment
+import com.example.taketook2.R
 import com.example.taketook2.databinding.FragmentSignInBinding
+import com.example.taketook2.ui.profile.pin.PinActivity
+import com.example.taketook2.ui.profile.pin.PinFragment
 
 /*
  * @author y.gladkikh
@@ -30,6 +33,9 @@ class SignInFragment : Fragment() {
 
         with(binding) {
             setupPhoneTextView()
+            signInButton.setOnClickListener {
+                startActivity(PinActivity.createIntent(requireActivity()))
+            }
         }
     }
 
