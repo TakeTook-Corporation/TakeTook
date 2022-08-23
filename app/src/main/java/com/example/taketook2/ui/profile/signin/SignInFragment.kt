@@ -5,12 +5,18 @@ import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.constraintlayout.widget.StateSet.TAG
 import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager.TAG
+import androidx.navigation.Navigation.findNavController
+import androidx.navigation.fragment.findNavController
 import com.example.taketook2.R
 import com.example.taketook2.databinding.FragmentSignInBinding
 import com.example.taketook2.ui.profile.pin.PinActivity
 import com.example.taketook2.ui.profile.pin.PinFragment
+import com.example.taketook2.ui.profile.registration.RegistrationActivity
+import com.example.taketook2.ui.profile.registration.RegistrationFragment
 
 /*
  * @author y.gladkikh
@@ -35,6 +41,9 @@ class SignInFragment : Fragment() {
             setupPhoneTextView()
             signInButton.setOnClickListener {
                 startActivity(PinActivity.createIntent(requireActivity()))
+            }
+            createAccount.setOnClickListener {
+                startActivity(RegistrationActivity.createIntent(requireActivity()))
             }
         }
     }

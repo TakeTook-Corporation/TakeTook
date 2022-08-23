@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.profile.pin.PinActivity">
+    tools:context=".ui.profile.registration.RegistrationActivity">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentPinContainer"
-        android:name="com.example.taketook2.ui.profile.pin.PinFragment"
+        android:id="@+id/fragmentRegistrationContainer"
+        android:name="com.example.taketook2.ui.profile.registration.RegistrationFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

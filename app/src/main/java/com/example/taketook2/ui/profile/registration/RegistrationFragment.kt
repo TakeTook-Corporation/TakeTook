@@ -29,4 +29,8 @@ class RegistrationFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+    companion object {
+        const val TAG = "REGISTRATION_FRAGMENT_TAG"
+    }
 }
