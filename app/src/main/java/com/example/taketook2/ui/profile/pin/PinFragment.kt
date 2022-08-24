@@ -25,7 +25,7 @@ class PinFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.pinEntry.showKeyboard()
+        binding.pinEntry.showKeyboard() //TODO never hide
     }
 
     private fun View.showKeyboard() {
