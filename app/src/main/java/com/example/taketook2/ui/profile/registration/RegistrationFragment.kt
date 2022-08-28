@@ -25,6 +25,18 @@ class RegistrationFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.closeButton.setOnClickListener {
+            requireActivity().finish()
+        }
+
+        binding.loginToAnExistingAccount.setOnClickListener {
+            requireActivity().finish()
+        }
+    }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

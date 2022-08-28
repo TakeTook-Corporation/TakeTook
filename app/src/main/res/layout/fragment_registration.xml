@@ -213,7 +213,7 @@
     </ScrollView>
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/button_back"
+        android:id="@+id/close_button"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_margin="15dp"
