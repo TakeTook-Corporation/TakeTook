@@ -21,6 +21,7 @@
         android:id="@+id/navigation_profile"
         android:name="com.example.taketook2.ui.profile.ProfileFlowFragment"
         android:label="@string/profile"
+        android:tag="PROFILE_FLOW_TAG"
         tools:layout="@layout/fragment_profile" />
 
     <fragment

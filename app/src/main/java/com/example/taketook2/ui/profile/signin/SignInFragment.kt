@@ -5,18 +5,12 @@ import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.constraintlayout.widget.StateSet.TAG
 import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager.TAG
-import androidx.navigation.Navigation.findNavController
-import androidx.navigation.fragment.findNavController
-import com.example.taketook2.R
+import androidx.fragment.app.viewModels
 import com.example.taketook2.databinding.FragmentSignInBinding
 import com.example.taketook2.ui.profile.pin.PinActivity
-import com.example.taketook2.ui.profile.pin.PinFragment
 import com.example.taketook2.ui.profile.registration.RegistrationActivity
-import com.example.taketook2.ui.profile.registration.RegistrationFragment
 
 /*
  * @author y.gladkikh
@@ -25,6 +19,8 @@ class SignInFragment : Fragment() {
 
     private var _binding: FragmentSignInBinding? = null
     private val binding get() = _binding!!
+
+    private val viewModel: SignInFragmentViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -39,7 +35,9 @@ class SignInFragment : Fragment() {
 
         with(binding) {
             setupPhoneTextView()
+
             signInButton.setOnClickListener {
+                viewModel.signIn(textPhone.text.toString())
                 startActivity(PinActivity.createIntent(requireActivity()))
             }
             createAccount.setOnClickListener {
@@ -100,6 +98,8 @@ class SignInFragment : Fragment() {
             if (size > 18 && dir == 1) {
                 setTextAndSelection(t.substring(0, 18), 18)
             }
+
+           viewModel.phoneFull = size == 18
         }
     }
 
@@ -121,5 +121,10 @@ class SignInFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+
+    companion object {
+        const val TAG = "SIGN_IN_FRAGMENT_TAG"
     }
 }

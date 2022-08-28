@@ -8,6 +8,9 @@ import com.example.taketook2.R
 import com.example.taketook2.databinding.ActivityMainBinding
 import com.example.taketook2.databinding.ActivityPinBinding
 
+/**
+ * @author y.gladkikh
+ */
 class PinActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityPinBinding

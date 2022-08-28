@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Введите 5-значный код из SMS \nотправленной на номер\n+x(xxx) xxx-xx-xx"
+        android:text="@string/enter_pin_code"
         android:textColor="?attr/colorOnSecondary"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/pin_entry"

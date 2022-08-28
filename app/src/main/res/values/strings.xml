@@ -17,4 +17,5 @@
     <string name="notHaveAcc">Еще нет аккаунта? Зарегистрируйтесь!</string>
     <string name="auth">Аутентификация</string>
     <string name="phone_number">Номер телефона</string>
+    <string name="enter_pin_code">Введите 6-значный код из SMS \nотправленной на номер\n+x(xxx) xxx-xx-xx</string>
 </resources>

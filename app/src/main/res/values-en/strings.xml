@@ -17,4 +17,5 @@
     <string name="notHaveAcc">Don`t have an account yet? Sign up!</string>
     <string name="auth">Authentication</string>
     <string name="phone_number">Phone number</string>
+    <string name="enter_pin_code">Enter 6-symbol code from SMS \nsent on \n+x(xxx) xxx-xx-xx</string>
 </resources>
