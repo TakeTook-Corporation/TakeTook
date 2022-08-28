@@ -7,9 +7,9 @@
     <string name="profile">Profile</string>
     <string name="map">Map</string>
     <string name="username">Username</string>
-    <string name="email_or_username">email</string>
+    <string name="email_or_username">Email</string>
     <string name="password">Password</string>
-    <string name="password_again">repeat password</string>
+    <string name="password_again">Repeat password</string>
     <string name="already_have_an_account_sign_in">Already have an account? Sign in!</string>
     <string name="registration">Registration</string>
     <string name="register">Sign up</string>

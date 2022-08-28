@@ -7,9 +7,9 @@
     <string name="map">Карта</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="username">Имя пользователя</string>
-    <string name="email_or_username">почта</string>
+    <string name="email_or_username">Почта</string>
     <string name="password">Пароль</string>
-    <string name="password_again">повторите пароль</string>
+    <string name="password_again">Повторите пароль</string>
     <string name="already_have_an_account_sign_in">Уже есть аккаунт? Войдите!</string>
     <string name="registration">Регистрация</string>
     <string name="register">Зарегистрироваться</string>

@@ -18,7 +18,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="115dp"
                 android:layout_height="115dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="8dp"
                 android:background="@drawable/circle"
                 android:src="@drawable/ic_camera_mini"
                 app:layout_constraintBottom_toTopOf="@id/login_title"
@@ -32,6 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
+                android:textSize="18sp"
                 android:fontFamily="@font/inter_regular"
                 android:text="@string/registration"
                 app:layout_constraintBottom_toTopOf="@id/textLayoutName"
@@ -67,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginTop="15dp"
-                app:boxBackgroundColor="?cardBackgroundColor"
+                app:boxBackgroundColor="?colorPrimaryVariant"
                 app:boxCornerRadiusBottomEnd="20dp"
                 app:boxCornerRadiusBottomStart="20dp"
                 app:boxCornerRadiusTopEnd="20dp"
@@ -95,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginTop="10dp"
-                app:boxBackgroundColor="?cardBackgroundColor"
+                app:boxBackgroundColor="?colorPrimaryVariant"
                 app:boxCornerRadiusBottomEnd="20dp"
                 app:boxCornerRadiusBottomStart="20dp"
                 app:boxCornerRadiusTopEnd="20dp"
@@ -123,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginTop="15dp"
-                app:boxBackgroundColor="?cardBackgroundColor"
+                app:boxBackgroundColor="?colorPrimaryVariant"
                 app:boxCornerRadiusBottomEnd="20dp"
                 app:boxCornerRadiusBottomStart="20dp"
                 app:boxCornerRadiusTopEnd="20dp"
@@ -152,7 +153,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginTop="10dp"
-                app:boxBackgroundColor="?cardBackgroundColor"
+                app:boxBackgroundColor="?colorPrimaryVariant"
                 app:boxCornerRadiusBottomEnd="20dp"
                 app:boxCornerRadiusBottomStart="20dp"
                 app:boxCornerRadiusTopEnd="20dp"
@@ -174,16 +175,18 @@
                     android:inputType="textPassword" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <androidx.appcompat.widget.AppCompatButton
+            <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
                 android:id="@+id/button_send"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
+                android:backgroundTint="?colorAccent"
+                android:text="@string/register"
+                android:textAlignment="center"
                 app:layout_constraintBottom_toTopOf="@id/login_to_an_existing_account"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textLayoutPasswordRepeat"
-                android:text="@string/register"
                 app:textAllCaps="true" />
 
             <TextView
@@ -193,13 +196,15 @@
                 android:layout_gravity="center_vertical"
                 android:layout_margin="10dp"
                 android:layout_marginTop="8dp"
+                android:background="@drawable/base_ripple"
+                android:clickable="true"
                 android:drawablePadding="10dp"
+                android:focusable="true"
                 android:fontFamily="@font/inter_regular"
                 android:gravity="center"
                 android:padding="10dp"
                 android:text="@string/already_have_an_account_sign_in"
                 app:drawableStartCompat="@drawable/ic_login"
-                app:drawableTint="@android:color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -207,16 +212,19 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/button_back"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_margin="15dp"
-        android:background="?selectableItemBackgroundBorderless"
-        android:padding="3dp"
-        android:src="@drawable/ic_arrow_left"
+        android:padding="10dp"
+        android:src="@drawable/ic_close"
+        android:scaleType="fitCenter"
+        app:tint="?colorPrimary"
+        android:background="@drawable/base_ripple"
+        android:clickable="true"
+        android:focusable="true"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tint="@android:color/white" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
