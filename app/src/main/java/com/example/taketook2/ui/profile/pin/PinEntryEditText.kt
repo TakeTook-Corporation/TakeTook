@@ -125,7 +125,6 @@ class PinEntryEditText : AppCompatEditText {
         maxLength = attrs.getAttributeIntValue(XML_NAMESPACE_ANDROID, "maxLength", 4)
         numChars = maxLength.toFloat()
 
-
         //Disable copy paste
         super.setCustomSelectionActionModeCallback(object : ActionMode.Callback {
             override fun onPrepareActionMode(mode: ActionMode, menu: Menu): Boolean {
@@ -142,7 +141,6 @@ class PinEntryEditText : AppCompatEditText {
             }
         })
         // When tapped, move cursor to end of text.
-
 
         //If input type is password and no mask is set, use a default mask
         if (inputType and InputType.TYPE_TEXT_VARIATION_PASSWORD == InputType.TYPE_TEXT_VARIATION_PASSWORD && TextUtils.isEmpty(mask)) {

@@ -123,7 +123,6 @@ class SignInFragment : Fragment() {
         _binding = null
     }
 
-
     companion object {
         const val TAG = "SIGN_IN_FRAGMENT_TAG"
     }
