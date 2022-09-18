@@ -42,7 +42,7 @@ class HomeFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
-
+    
     private fun submitStubData() {
         val stubList = listOf(
             StoryModel(

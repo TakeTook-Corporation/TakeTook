@@ -15,7 +15,7 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:text="Город: " />
+        android:text="Город: " />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/body_text"
@@ -23,6 +23,6 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:textSize="18sp"
-        tools:text="Воронеж" />
+        android:text="Воронеж" />
 
 </LinearLayout>
