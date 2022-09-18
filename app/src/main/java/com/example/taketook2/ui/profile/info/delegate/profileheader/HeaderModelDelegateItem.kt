@@ -1,16 +1,19 @@
-package com.example.taketook2.ui.profile.info.delegate.characteristic
+package com.example.taketook2.ui.profile.info.delegate.profileheader
 
 import com.example.emoji.fragments.delegateItem.DelegateItem
 
-data class CommonCharacteristicsDelegateItem(
+/*
+ * @author y.gladkikh
+ */
+data class HeaderModelDelegateItem(
     val id: Int,
-    val value: CommonCharacteristicsModel,
+    val value: HeaderModel,
 ) : DelegateItem {
     override fun content(): Any = value
 
     override fun id(): Int = id
 
     override fun compareToOther(other: DelegateItem): Boolean {
-        return (other as CommonCharacteristicsDelegateItem).value == content()
+        return (other as HeaderModelDelegateItem).value == content()
     }
 }

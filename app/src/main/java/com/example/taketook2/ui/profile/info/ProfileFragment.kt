@@ -6,12 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.emoji.fragments.delegateItem.MainAdapter
+import com.example.taketook2.STUB_USER_ICON_URL
 import com.example.taketook2.databinding.FragmentProfileBinding
-import com.example.taketook2.ui.delegate.toCharacteristicsDelegateItemList
-import com.example.taketook2.ui.delegate.toRatingDelegateItemList
-import com.example.taketook2.ui.home.recycler.stories.StoryDelegate
-import com.example.taketook2.ui.profile.info.delegate.characteristic.CommonCharacteristicsDelegate
-import com.example.taketook2.ui.profile.info.delegate.characteristic.CommonCharacteristicsModel
+import com.example.taketook2.ui.delegate.toProfileDelegateItemList
+import com.example.taketook2.ui.profile.info.delegate.characteristic.UserCharacteristicsDelegate
+import com.example.taketook2.ui.profile.info.delegate.characteristic.UserCharacteristicsModel
+import com.example.taketook2.ui.profile.info.delegate.model.UserModel
+import com.example.taketook2.ui.profile.info.delegate.profileheader.HeaderModel
+import com.example.taketook2.ui.profile.info.delegate.profileheader.HeaderModelDelegate
 import com.example.taketook2.ui.profile.info.delegate.ratedegate.RatingDelegate
 import com.example.taketook2.ui.profile.info.delegate.ratedegate.RatingModel
 
@@ -39,30 +41,40 @@ class ProfileFragment : Fragment() {
 
         initAdapter()
 
-        val rating = listOf(
-            RatingModel(
-                1,
-                3
-            )
+        //TODO remove stubs
+        val rating = RatingModel(
+            1,
+            3
         )
 
         val characteristics = listOf(
-            CommonCharacteristicsModel(
+            UserCharacteristicsModel(
                 id = 1,
                 title = "City:",
                 description = "Voronezh"
             )
         )
 
-        profileAdapter.submitList(rating.toRatingDelegateItemList() + characteristics.toCharacteristicsDelegateItemList())
+        val user = UserModel(
+            userId = 12,
+            header = HeaderModel(
+                iconUrl = STUB_USER_ICON_URL,
+                userName = "Yana Glad"
+            ),
+            rating = rating,
+            characteristics = characteristics,
+        )
+
+        profileAdapter.submitList(user.toProfileDelegateItemList())
     }
 
     private fun initAdapter() {
         profileAdapter = MainAdapter()
 
         profileAdapter.apply {
-            addDelegate(CommonCharacteristicsDelegate())
+            addDelegate(UserCharacteristicsDelegate())
             addDelegate(RatingDelegate())
+            addDelegate(HeaderModelDelegate())
         }
         binding.characteristicsRecycler.adapter = profileAdapter
     }

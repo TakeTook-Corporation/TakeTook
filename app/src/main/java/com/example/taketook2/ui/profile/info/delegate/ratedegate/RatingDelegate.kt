@@ -3,15 +3,9 @@ package com.example.taketook2.ui.profile.info.delegate.ratedegate
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.example.emoji.fragments.delegateItem.DelegateItem
-import com.example.taketook2.R
 import com.example.taketook2.databinding.StarsItemBinding
-import com.example.taketook2.databinding.StroriesCardItemBinding
 import com.example.taketook2.ui.delegate.AdapterDelegate
-import com.example.taketook2.ui.home.recycler.stories.StoryDelegateItem
-import com.example.taketook2.ui.home.recycler.stories.StoryModel
 
 class RatingDelegate : AdapterDelegate {
 
