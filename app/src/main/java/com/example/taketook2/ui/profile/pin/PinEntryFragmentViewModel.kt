@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModel
 class PinEntryFragmentViewModel : ViewModel() {
 
     val codeLiveData: MutableLiveData<String> = MutableLiveData()
-    val codeFromSms: MutableLiveData<String> = MutableLiveData()
+    private val codeFromSms: MutableLiveData<String> = MutableLiveData()
 
     fun compareCodes(code: String): Boolean  = code == codeFromSms.value
 

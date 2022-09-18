@@ -52,7 +52,22 @@ class ProfileFragment : Fragment() {
                 id = 1,
                 title = "City:",
                 description = "Voronezh"
-            )
+            ),
+            UserCharacteristicsModel(
+                id = 1,
+                title = "Email:",
+                description = "monsterglad12@gmail.com"
+            ),
+            UserCharacteristicsModel(
+                id = 1,
+                title = "Phone:",
+                description = "+7(930) 410-46-11"
+            ),
+            UserCharacteristicsModel(
+                id = 1,
+                title = "Preferences:",
+                description = "Using sells"
+            ),
         )
 
         val user = UserModel(
