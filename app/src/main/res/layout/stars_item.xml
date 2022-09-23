@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
     tools:context=".ui.services.ServicesFragment">
 
     <com.example.taketook2.rating.simpleratingbar.RatingStars
