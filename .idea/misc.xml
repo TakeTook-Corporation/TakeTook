@@ -15,13 +15,19 @@
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_earth.xml" value="0.1905" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_handshake.xml" value="0.1905" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_hide.xml" value="0.1905" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_home.xml" value="0.208" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1905" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_launcher_background.xml" value="0.208" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_location.xml" value="0.1905" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_login.xml" value="0.181" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_map.xml" value="0.1905" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_map_location_solid.xml" value="0.208" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.208" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_person.xml" value="0.109" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_profile_icon.xml" value="0.208" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_show.xml" value="0.181" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_star_black_24dp.xml" value="0.127" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/ic_star_border_black_24dp.xml" value="0.208" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/password_toggle.xml" value="0.181" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/drawable/separator.xml" value="0.181" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/activity_main.xml" value="0.2074074074074074" />
@@ -30,6 +36,7 @@
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/common_characteristics_item.xml" value="0.264" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/common_characteristics_layout.xml" value="0.18020833333333333" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/fragment_home.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/fragment_listings.xml" value="0.121875" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/fragment_map.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/fragment_pin.xml" value="0.19479166666666667" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/fragment_profile.xml" value="0.19739583333333333" />
@@ -37,10 +44,12 @@
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/fragment_registration.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/fragment_services.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/fragment_sign_in.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/listings_item.xml" value="0.25" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/nav_card_item.xml" value="0.18828125" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/profile_header_item.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/stars_item.xml" value="0.2" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/strories_card_item.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1222/app/src/main/res/layout/text_location_layout.xml" value="0.20625" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook3/app/src/main/res/drawable/ic_home.xml" value="0.138" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook3/app/src/main/res/drawable/ic_person.xml" value="0.1645" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook3/app/src/main/res/layout/fragment_dashboard.xml" value="0.21927083333333333" />
