@@ -2,18 +2,20 @@ package com.example.taketook2.ui.profile.pin
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
-import android.view.inputmethod.InputMethodManager
-import com.example.taketook2.R
-import com.example.taketook2.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import com.example.core.widgets.temp.MainActivityExtension
+import com.example.taketook2.IS_SIGNED_IN
+import com.example.taketook2.MainActivity
+import com.example.taketook2.Navigation
 import com.example.taketook2.databinding.ActivityPinBinding
 
 /**
  * @author y.gladkikh
  */
-class PinActivity : AppCompatActivity() {
+class PinActivity : AppCompatActivity(), MainActivityExtension {
 
     private lateinit var binding: ActivityPinBinding
 
@@ -29,6 +31,18 @@ class PinActivity : AppCompatActivity() {
     companion object {
         fun createIntent(context: Context): Intent {
             return Intent(context, PinActivity::class.java)
+        }
+    }
+
+    override fun mainActivityAction(fragment: Fragment) {
+        when(fragment::class.java.name) {
+            "SignInFragment"->{
+                startActivity(createIntent(this))
+            }
+            "PinFragment"-> {
+                IS_SIGNED_IN = true
+                startActivity(MainActivity.createIntent(this, Navigation.PROFILE))
+            }
         }
     }
 }

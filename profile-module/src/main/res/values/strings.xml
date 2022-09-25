@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="already_have_an_account_sign_in">Уже есть аккаунт? Войдите!</string>
+    <string name="registration">Регистрация</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="login">Войти</string>
+    <string name="notHaveAcc">Еще нет аккаунта? Зарегистрируйтесь!</string>
+    <string name="auth">Аутентификация</string>
+    <string name="username">Имя пользователя</string>
+    <string name="email_or_username">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="password_again">Повторите пароль</string>
+    <string name="phone_number">Номер телефона</string>
+</resources>

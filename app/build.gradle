@@ -39,6 +39,9 @@ android {
 dependencies {
     implementation project(':recycler-utils')
     implementation project(':home-module')
+    implementation project(':profile-module')
+    implementation project(':core-widgets')
+    implementation project(':pin-module')
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'

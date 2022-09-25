@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_pin_code">Enter 6-symbol code from SMS \nsent on \n+x(xxx) xxx-xx-xx</string>
+</resources>

@@ -6,16 +6,4 @@
     <string name="profile">Профиль</string>
     <string name="map">Карта</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="username">Имя пользователя</string>
-    <string name="email_or_username">Почта</string>
-    <string name="password">Пароль</string>
-    <string name="password_again">Повторите пароль</string>
-    <string name="already_have_an_account_sign_in">Уже есть аккаунт? Войдите!</string>
-    <string name="registration">Регистрация</string>
-    <string name="register">Зарегистрироваться</string>
-    <string name="login">Войти</string>
-    <string name="notHaveAcc">Еще нет аккаунта? Зарегистрируйтесь!</string>
-    <string name="auth">Аутентификация</string>
-    <string name="phone_number">Номер телефона</string>
-    <string name="enter_pin_code">Введите 6-значный код из SMS \nотправленной на номер\n+x(xxx) xxx-xx-xx</string>
 </resources>

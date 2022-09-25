@@ -11,7 +11,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core-widgets" />
             <option value="$PROJECT_DIR$/home-module" />
+            <option value="$PROJECT_DIR$/pin-module" />
+            <option value="$PROJECT_DIR$/profile-module" />
             <option value="$PROJECT_DIR$/recycler-utils" />
           </set>
         </option>

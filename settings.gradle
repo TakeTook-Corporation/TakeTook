@@ -16,3 +16,6 @@ rootProject.name = "TakeTook2"
 include ':app'
 include ':recycler-utils'
 include ':home-module'
+include ':profile-module'
+include ':core-widgets'
+include ':pin-module'

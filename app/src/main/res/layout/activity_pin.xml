@@ -4,11 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:windowSoftInputMode="stateVisible"
-    tools:context=".ui.profile.pin.PinActivity">
+    tools:context="com.example.taketook2.ui.profile.pin.PinActivity"
+    tools:ignore="MissingDefaultResource">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentPinContainer"
-        android:name="com.example.taketook2.ui.profile.pin.PinFragment"
+        android:name="com.example.pin_module.PinFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
