@@ -1,6 +1,6 @@
 package com.example.taketook2.ui.delegate
 
-import com.example.emoji.fragments.delegateItem.DelegateItem
+import com.example.recycler_utils.DelegateItem
 import com.example.taketook2.ui.home.recycler.stories.StoryDelegateItem
 import com.example.taketook2.ui.home.recycler.stories.StoryModel
 import com.example.taketook2.ui.profile.info.delegate.characteristic.UserCharacteristicsDelegateItem

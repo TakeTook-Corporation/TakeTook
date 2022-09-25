@@ -1,6 +1,6 @@
 package com.example.taketook2.ui.profile.info.delegate.ratedegate
 
-import com.example.emoji.fragments.delegateItem.DelegateItem
+import com.example.recycler_utils.DelegateItem
 
 data class RatingDelegateItem(
     val id: Int,

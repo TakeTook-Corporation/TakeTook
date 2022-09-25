@@ -1,8 +1,7 @@
-package com.example.taketook2.ui.delegate
+package com.example.recycler_utils
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.emoji.fragments.delegateItem.DelegateItem
 
 /**
  * @author y.gladkikh

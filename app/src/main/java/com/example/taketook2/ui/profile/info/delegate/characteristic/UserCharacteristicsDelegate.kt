@@ -3,9 +3,9 @@ package com.example.taketook2.ui.profile.info.delegate.characteristic
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.emoji.fragments.delegateItem.DelegateItem
+import com.example.recycler_utils.DelegateItem
 import com.example.taketook2.databinding.CommonCharacteristicsItemBinding
-import com.example.taketook2.ui.delegate.AdapterDelegate
+import com.example.recycler_utils.AdapterDelegate
 
 /*
  * @author y.gladkikh

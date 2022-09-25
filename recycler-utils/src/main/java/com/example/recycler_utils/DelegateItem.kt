@@ -1,4 +1,4 @@
-package com.example.emoji.fragments.delegateItem
+package com.example.recycler_utils
 
 /**
  * @author y.gladkikh

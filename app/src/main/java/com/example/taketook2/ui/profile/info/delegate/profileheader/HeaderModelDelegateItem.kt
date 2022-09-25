@@ -1,6 +1,6 @@
 package com.example.taketook2.ui.profile.info.delegate.profileheader
 
-import com.example.emoji.fragments.delegateItem.DelegateItem
+import com.example.recycler_utils.DelegateItem
 
 /*
  * @author y.gladkikh

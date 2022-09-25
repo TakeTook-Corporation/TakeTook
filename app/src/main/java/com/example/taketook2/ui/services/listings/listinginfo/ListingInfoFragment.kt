@@ -7,6 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.taketook2.R
 
+/*
+ * @author y.gladkikh
+ */
 class ListingInfoFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

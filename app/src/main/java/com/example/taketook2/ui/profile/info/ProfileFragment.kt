@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.emoji.fragments.delegateItem.MainAdapter
+import com.example.recycler_utils.MainAdapter
 import com.example.taketook2.STUB_USER_ICON_URL
 import com.example.taketook2.databinding.FragmentProfileBinding
 import com.example.taketook2.ui.delegate.toProfileDelegateItemList
