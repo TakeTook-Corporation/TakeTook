@@ -1,13 +1,13 @@
-package com.example.taketook2.ui.home.recycler.stories
+package com.example.home.module.recycler.stories
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.example.home.module.R
+import com.example.home.module.databinding.StroriesCardItemBinding
 import com.example.recycler_utils.DelegateItem
-import com.example.taketook2.R
-import com.example.taketook2.databinding.StroriesCardItemBinding
 import com.example.recycler_utils.AdapterDelegate
 
 /**

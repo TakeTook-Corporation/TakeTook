@@ -1,4 +1,4 @@
-package com.example.taketook2.ui.home.recycler.stories
+package com.example.home.module.recycler.stories
 
 import com.example.recycler_utils.DelegateItem
 
