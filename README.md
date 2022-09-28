@@ -1,0 +1,2 @@
+# TakeTook
+Startup prototype
