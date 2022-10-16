@@ -2,4 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.profile.module">
 
+    <application>
+    <activity
+        android:name="com.example.profile.module.registration.RegistrationActivity"
+        android:exported="false" />
+    </application>
 </manifest>
