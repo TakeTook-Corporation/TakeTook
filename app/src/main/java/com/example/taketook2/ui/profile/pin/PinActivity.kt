@@ -7,9 +7,12 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.core.widgets.temp.MainActivityExtension
+import com.example.pin_module.PinFragment
+import com.example.profile.module.signin.SignInFragment
 import com.example.taketook2.IS_SIGNED_IN
 import com.example.taketook2.MainActivity
 import com.example.taketook2.Navigation
+import com.example.taketook2.R
 import com.example.taketook2.databinding.ActivityPinBinding
 
 /**
@@ -18,6 +21,7 @@ import com.example.taketook2.databinding.ActivityPinBinding
 class PinActivity : AppCompatActivity(), MainActivityExtension {
 
     private lateinit var binding: ActivityPinBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,11 +39,11 @@ class PinActivity : AppCompatActivity(), MainActivityExtension {
     }
 
     override fun mainActivityAction(fragment: Fragment) {
-        when(fragment::class.java.name) {
-            "SignInFragment"->{
+        when(fragment.tag) {
+            SignInFragment.TAG->{
                 startActivity(createIntent(this))
             }
-            "PinFragment"-> {
+            PinFragment.TAG-> {
                 IS_SIGNED_IN = true
                 startActivity(MainActivity.createIntent(this, Navigation.PROFILE))
             }

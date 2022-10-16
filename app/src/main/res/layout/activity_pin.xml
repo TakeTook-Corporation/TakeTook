@@ -10,6 +10,7 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentPinContainer"
         android:name="com.example.pin_module.PinFragment"
+        android:tag="PIN_FRAGMENT_TAG"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
