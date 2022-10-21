@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/pin-module" />
             <option value="$PROJECT_DIR$/profile-module" />
             <option value="$PROJECT_DIR$/recycler-utils" />
+            <option value="$PROJECT_DIR$/services-module" />
           </set>
         </option>
       </GradleProjectSettings>
