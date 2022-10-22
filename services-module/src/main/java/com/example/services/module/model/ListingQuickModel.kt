@@ -1,4 +1,4 @@
-package com.example.taketook2.ui.services.model
+package com.example.services.module.model
 
 /*
  * @author y.gladkikh

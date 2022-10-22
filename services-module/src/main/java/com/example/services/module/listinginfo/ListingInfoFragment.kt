@@ -1,11 +1,11 @@
-package com.example.taketook2.ui.services.listings.listinginfo
+package com.example.services.module.listinginfo
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.taketook2.R
+import com.example.services.module.R
 
 /*
  * @author y.gladkikh

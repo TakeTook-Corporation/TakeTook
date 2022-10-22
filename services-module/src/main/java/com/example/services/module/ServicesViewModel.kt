@@ -1,4 +1,4 @@
-package com.example.taketook2.ui.services
+package com.example.services.module
 
 import androidx.lifecycle.ViewModel
 

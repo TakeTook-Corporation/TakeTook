@@ -1,11 +1,11 @@
-package com.example.taketook2.ui.services
+package com.example.services.module
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.taketook2.databinding.FragmentServicesBinding
+import com.example.services.module.databinding.FragmentServicesBinding
 
 /**
  * @author y.gladkikh

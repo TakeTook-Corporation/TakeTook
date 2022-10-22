@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_services"
-        android:name="com.example.taketook2.ui.services.ServicesFragment"
+        android:name="com.example.services.module.ServicesFragment"
         android:label="@string/services"
         tools:layout="@layout/fragment_services" />
 
