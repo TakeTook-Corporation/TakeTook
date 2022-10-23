@@ -7,7 +7,7 @@ import com.example.profile.module.databinding.CommonCharacteristicsItemBinding
 import com.example.recycler_utils.DelegateItem
 import com.example.recycler_utils.AdapterDelegate
 
-/*
+/**
  * @author y.gladkikh
  */
 class UserCharacteristicsDelegate : AdapterDelegate {

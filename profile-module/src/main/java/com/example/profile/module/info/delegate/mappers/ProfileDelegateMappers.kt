@@ -8,7 +8,7 @@ import com.example.profile.module.info.delegate.ratedegate.RatingDelegateItem
 import com.example.profile.module.info.delegate.ratedegate.RatingModel
 import com.example.recycler_utils.DelegateItem
 
-/*
+/**
  * @author y.gladkikh
  */
 fun List<RatingModel>.toRatingDelegateItemList(): List<DelegateItem> {

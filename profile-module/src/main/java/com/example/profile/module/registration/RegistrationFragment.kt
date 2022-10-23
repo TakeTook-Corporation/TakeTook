@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.profile.module.databinding.FragmentRegistrationBinding
 
-/*
+/**
  * @author y.gladkikh
  */
 class RegistrationFragment : Fragment() {

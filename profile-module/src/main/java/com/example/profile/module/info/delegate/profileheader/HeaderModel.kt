@@ -1,6 +1,6 @@
 package com.example.profile.module.info.delegate.profileheader
 
-/*
+/**
  * @author y.gladkikh
  */
 class HeaderModel(

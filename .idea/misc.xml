@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1211/app/src/main/res/drawable/sell_cell_system_v1.xml" value="0.2105" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1211/app/src/main/res/layout/listings_item.xml" value="0.2708333333333333" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1211/profile-module/src/main/res/layout/common_characteristics_item.xml" value="0.11875" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1211/profile-module/src/main/res/layout/fragment_profile.xml" value="0.10260416666666666" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1211/profile-module/src/main/res/layout/profile_header_item.xml" value="0.11875" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1211/services-module/src/main/res/drawable/ic_location.xml" value="0.2105" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1211/services-module/src/main/res/drawable/sell_cell_system_v1.xml" value="0.2105" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1211/services-module/src/main/res/layout/fragment_listing_info.xml" value="0.11875" />
-        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1211/services-module/src/main/res/layout/fragment_services.xml" value="0.11875" />
+        <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1211/services-module/src/main/res/layout/fragment_services.xml" value="0.2" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook1211/services-module/src/main/res/layout/listing_item.xml" value="0.2" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook121212/app/src/main/res/layout/activity_pin.xml" value="0.1" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook121212/profile-module/src/main/res/layout/activity_registration.xml" value="0.1578125" />

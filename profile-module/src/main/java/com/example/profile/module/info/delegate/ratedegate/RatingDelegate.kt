@@ -7,6 +7,9 @@ import com.example.profile.module.databinding.StarsItemBinding
 import com.example.recycler_utils.AdapterDelegate
 import com.example.recycler_utils.DelegateItem
 
+/**
+ * @author y.gladkikh
+ */
 class RatingDelegate : AdapterDelegate {
 
     override fun onCreateViewHolder(parent: ViewGroup): RecyclerView.ViewHolder =

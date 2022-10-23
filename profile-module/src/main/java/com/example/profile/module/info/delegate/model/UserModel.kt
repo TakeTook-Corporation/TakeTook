@@ -4,7 +4,7 @@ import com.example.profile.module.info.delegate.characteristic.UserCharacteristi
 import com.example.profile.module.info.delegate.profileheader.HeaderModel
 import com.example.profile.module.info.delegate.ratedegate.RatingModel
 
-/*
+/**
  * @author y.gladkikh
  */
 data class UserModel(

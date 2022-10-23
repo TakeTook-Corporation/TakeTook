@@ -11,7 +11,7 @@ import androidx.fragment.app.viewModels
 import com.example.core.widgets.temp.MainActivityExtension
 import com.example.profile.module.databinding.FragmentSignInBinding
 
-/*
+/**
  * @author y.gladkikh
  */
 class SignInFragment : Fragment() {

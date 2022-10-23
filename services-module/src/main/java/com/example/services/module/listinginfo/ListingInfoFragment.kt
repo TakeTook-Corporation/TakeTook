@@ -9,7 +9,7 @@ import com.example.services.module.R
 import com.example.services.module.databinding.FragmentListingInfoBinding
 import com.example.services.module.databinding.FragmentServicesBinding
 
-/*
+/**
  * @author y.gladkikh
  */
 class ListingInfoFragment : Fragment() {

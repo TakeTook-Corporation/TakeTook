@@ -10,7 +10,7 @@ import com.example.profile.module.databinding.ProfileHeaderItemBinding
 import com.example.recycler_utils.AdapterDelegate
 import com.example.recycler_utils.DelegateItem
 
-/*
+/**
  * @author y.gladkikh
  */
 class HeaderModelDelegate : AdapterDelegate {
