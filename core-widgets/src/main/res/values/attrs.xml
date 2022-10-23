@@ -13,4 +13,15 @@
             <enum name="flip" value="5" />
         </attr>
     </declare-styleable>
+
+    <declare-styleable name="HiddenSearchWithRecyclerView">
+        <attr name="filterWhileTyping" format="boolean" />
+
+        <attr name="scrollToTopBeforeShow" format="boolean" />
+        <attr name="scrollToBottomBeforeHide" format="boolean" />
+
+        <attr name="visibleAtInit" format="boolean" />
+        <attr name="hideAtScroll" format="boolean" />
+    </declare-styleable>
+
 </resources>
