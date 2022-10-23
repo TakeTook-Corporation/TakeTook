@@ -1,4 +1,4 @@
-package com.example.services.module.recycler
+package com.example.services.module.recycler.listing
 
 import com.example.recycler_utils.DelegateItem
 

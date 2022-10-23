@@ -1,6 +1,7 @@
-package com.example.services.module.recycler
+package com.example.services.module.recycler.listing
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -29,13 +30,16 @@ class ListingDelegate : AdapterDelegate {
         fun bind(model: ListingModel) {
             with(binding) {
                 title.text = model.title
-                price.text = model.price
+                price.text = model.price.toString()
+                location.text = model.city
 
                 Glide.with(itemView.context)
                     .load(model.iconLink)
                     .error(R.drawable.sell_cell_system_v1) //TODO error image
                     .diskCacheStrategy(DiskCacheStrategy.ALL)
                     .into(binding.icon)
+
+                usingAutomatSystem.visibility = if (model.usingAutomatSystem) View.VISIBLE else View.GONE
             }
         }
     }
