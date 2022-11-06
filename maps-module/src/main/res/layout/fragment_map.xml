@@ -5,11 +5,4 @@
     android:layout_height="match_parent"
     tools:context="com.example.maps_module.MapFragment">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/advertisement_image"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/spcx" />
-
 </FrameLayout>
