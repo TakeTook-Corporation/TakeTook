@@ -1,11 +1,11 @@
-package com.example.taketook2.ui.map
+package com.example.maps_module
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.taketook2.databinding.FragmentMapBinding
+import com.example.maps_module.databinding.FragmentMapBinding
 
 /**
  * @author y.gladkikh
