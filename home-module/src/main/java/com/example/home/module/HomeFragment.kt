@@ -80,7 +80,7 @@ class HomeFragment : Fragment() {
             ),
         )
 
-        storiesAdapter.submitList(stubList.toDelegateItemList())
+        storiesAdapter.submitList(stubList.toStoryDelegateItemList())
     }
 
     private fun initAdapter() {
