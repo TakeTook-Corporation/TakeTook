@@ -27,11 +27,9 @@ class NavDelegate : AdapterDelegate {
     class ViewHolder(private val binding: NavCardItemBinding) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(model: NavModel) {
-            Glide.with(itemView.context)
-                .load(model.iconUrl)
-                .error(R.drawable.spcx)
-                .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(binding.image)
+            binding.image.setOnClickListener {
+                
+            }
         }
     }
 }

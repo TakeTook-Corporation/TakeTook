@@ -5,6 +5,6 @@ package com.example.home.module.recycler.nav
  */
 data class NavModel(
     val id: Int,
-    val iconUrl: String,
+    val iconId: Int,
     val destination: String,
 )

@@ -33,9 +33,22 @@ class MainActivity : AppCompatActivity(), MainActivityExtension {
 
         navView.setupWithNavController(navController)
 
-        when (intent.getStringExtra(NAVIGATION_ARG)) {
+        intent.getStringExtra(NAVIGATION_ARG)?.let { changeSelectedItem(it) }
+    }
+
+    private fun changeSelectedItem(direction: String) {
+        when(direction) {
+            Navigation.HOME.name -> {
+                binding.navView.selectedItemId = R.id.navigation_home
+            }
             Navigation.PROFILE.name -> {
                 binding.navView.selectedItemId = R.id.navigation_profile
+            }
+            Navigation.SERVICES.name -> {
+                binding.navView.selectedItemId = R.id.navigation_services
+            }
+            Navigation.MAP.name -> {
+                binding.navView.selectedItemId = R.id.navigation_map
             }
             else -> {
 
@@ -68,5 +81,5 @@ class MainActivity : AppCompatActivity(), MainActivityExtension {
 var IS_SIGNED_IN = false //TODO this property must be got from server/local DB
 
 enum class Navigation {
-    NONE, PROFILE
+    NONE, PROFILE, SERVICES, MAP, HOME,
 }
