@@ -11,6 +11,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/geography"
         android:supportsRtl="true"
+        android:name=".App"
         android:theme="@style/Theme.TakeTook2">
         <activity
             android:name="com.example.taketook2.ui.profile.pin.PinActivity"

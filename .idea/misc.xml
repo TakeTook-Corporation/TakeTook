@@ -94,6 +94,28 @@
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook3/app/src/main/res/layout/fragment_home.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook3/app/src/main/res/layout/fragment_map.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/glad/AndroidStudioProjects/TakeTook3/app/src/main/res/menu/bottom_nav_menu.xml" value="0.12760416666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/fragment_profile_flow.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/nav_card_item.xml" value="0.128125" />
+        <entry key="core-widgets/src/main/res/drawable/base_ripple.xml" value="0.1" />
+        <entry key="core-widgets/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="core-widgets/src/main/res/drawable/ic_close.xml" value="0.1" />
+        <entry key="core-widgets/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="core-widgets/src/main/res/drawable/ic_star_black_24dp.xml" value="0.1" />
+        <entry key="core-widgets/src/main/res/drawable/ic_star_border_black_24dp.xml" value="0.1" />
+        <entry key="core-widgets/src/main/res/drawable/separator.xml" value="0.1" />
+        <entry key="pin-module/src/main/res/layout/activity_pin.xml" value="0.22083333333333333" />
+        <entry key="pin-module/src/main/res/layout/fragment_pin.xml" value="0.13489583333333333" />
+        <entry key="profile-module/src/main/res/drawable/ic_add_user.xml" value="0.1035" />
+        <entry key="profile-module/src/main/res/drawable/ic_camera.xml" value="0.1035" />
+        <entry key="profile-module/src/main/res/drawable/ic_camera_mini.xml" value="0.1035" />
+        <entry key="profile-module/src/main/res/drawable/ic_hide.xml" value="0.1035" />
+        <entry key="profile-module/src/main/res/drawable/ic_login.xml" value="0.1035" />
+        <entry key="profile-module/src/main/res/drawable/ic_show.xml" value="0.1035" />
+        <entry key="profile-module/src/main/res/drawable/password_toggle.xml" value="0.1035" />
+        <entry key="profile-module/src/main/res/layout/fragment_profile.xml" value="0.18072916666666666" />
+        <entry key="profile-module/src/main/res/layout/fragment_sign_in.xml" value="0.134375" />
+        <entry key="services-module/src/main/res/layout/listing_item.xml" value="0.12864583333333332" />
       </map>
     </option>
   </component>

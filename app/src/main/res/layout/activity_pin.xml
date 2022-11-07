@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:windowSoftInputMode="stateVisible"
-    tools:context="com.example.taketook2.ui.profile.pin.PinActivity"
+    tools:context="com.example.taketook2.com.example.pin_module.PinActivity"
     tools:ignore="MissingDefaultResource">
 
     <androidx.fragment.app.FragmentContainerView

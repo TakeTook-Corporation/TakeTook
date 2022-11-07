@@ -19,6 +19,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
  */
 class MainActivity : AppCompatActivity(), MainActivityExtension {
 
+    override val context: Context = this
+
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -72,7 +74,7 @@ class MainActivity : AppCompatActivity(), MainActivityExtension {
             }
             PinFragment.TAG-> {
                 IS_SIGNED_IN = true
-                startActivity(MainActivity.createIntent(this, Navigation.PROFILE))
+                startActivity(createIntent(this, Navigation.PROFILE))
             }
         }
     }
