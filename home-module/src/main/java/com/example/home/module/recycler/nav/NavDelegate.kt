@@ -18,17 +18,25 @@ class NavDelegate : AdapterDelegate {
     override fun onCreateViewHolder(parent: ViewGroup): RecyclerView.ViewHolder =
         ViewHolder(NavCardItemBinding.inflate(LayoutInflater.from(parent.context), parent, false))
 
-    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, item: DelegateItem, position: Int) {
+    override fun onBindViewHolder(
+        holder: RecyclerView.ViewHolder,
+        item: DelegateItem,
+        position: Int
+    ) {
         (holder as ViewHolder).bind(item.content() as NavModel)
     }
 
     override fun isOfViewType(item: DelegateItem): Boolean = item is NavDelegateItem
 
-    class ViewHolder(private val binding: NavCardItemBinding) : RecyclerView.ViewHolder(binding.root) {
+    class ViewHolder(private val binding: NavCardItemBinding) :
+        RecyclerView.ViewHolder(binding.root) {
 
         fun bind(model: NavModel) {
-            binding.image.setOnClickListener {
-                
+            with(binding) {
+                image.setImageResource(model.iconId)
+                image.setOnClickListener {
+
+                }
             }
         }
     }

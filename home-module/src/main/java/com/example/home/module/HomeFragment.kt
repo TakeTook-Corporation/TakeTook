@@ -7,16 +7,19 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.home.module.databinding.FragmentHomeBinding
 import com.example.home.module.recycler.mappers.toStoryDelegateItemList
-import com.example.recycler_utils.MainAdapter
+import com.example.home.module.recycler.nav.NavModel
 import com.example.home.module.recycler.stories.StoryDelegate
 import com.example.home.module.recycler.stories.StoryModel
+import com.example.recycler_utils.MainAdapter
 
 /**
  * @author y.gladkikh
  */
-const val STUB_ICON_URL = "https://shoptech.ru/images/catalog/konstruktory-lego/lego-creator-31117-priklyucheniya-na-kos_32088_full.jpg"
+const val STUB_ICON_URL =
+    "https://shoptech.ru/images/catalog/konstruktory-lego/lego-creator-31117-priklyucheniya-na-kos_32088_full.jpg"
 const val STUB_SITE_LINK = "https://github.com/YanaGlad"
-const val STUB_USER_ICON_URL = "https://sun1-15.userapi.com/impg/N_KDRQrSx7i57VSJnN0Fs-RtnZktfPkpmY7zmg/LMTvDxbrrX0.jpg?size=736x919&quality=95&sign=c21ad2637ce435c497792c6c55494513&type=album"
+const val STUB_USER_ICON_URL =
+    "https://sun1-15.userapi.com/impg/N_KDRQrSx7i57VSJnN0Fs-RtnZktfPkpmY7zmg/LMTvDxbrrX0.jpg?size=736x919&quality=95&sign=c21ad2637ce435c497792c6c55494513&type=album"
 
 class HomeFragment : Fragment() {
 
@@ -46,7 +49,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun submitStubData() {
-        val stubList = listOf(
+        val stubStoriesList = listOf(
             StoryModel(
                 id = 1,
                 iconUrl = STUB_ICON_URL,
@@ -78,8 +81,25 @@ class HomeFragment : Fragment() {
                 siteUrl = STUB_SITE_LINK,
             ),
         )
+        val stubNavModelsList = listOf(
+            NavModel(
+                id = 1,
+                iconId = R.drawable.doctor,
+                destination = "",
+            ),
+            NavModel(
+                id = 2,
+                iconId = R.drawable.doctor,
+                destination = "",
+            ),
+            NavModel(
+                id = 3,
+                iconId = R.drawable.doctor,
+                destination = "",
+            ),
+        )
 
-        storiesAdapter.submitList(stubList.toStoryDelegateItemList())
+        storiesAdapter.submitList(stubStoriesList.toStoryDelegateItemList())
     }
 
     private fun initAdapter() {
