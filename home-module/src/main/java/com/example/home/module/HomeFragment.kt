@@ -100,24 +100,39 @@ class HomeFragment : Fragment() {
                 iconId = R.drawable.doctor,
                 destination = "",
             ),
+            NavModel(
+                id = 1,
+                iconId = R.drawable.doctor,
+                destination = "",
+            ),
+            NavModel(
+                id = 2,
+                iconId = R.drawable.spcx,
+                destination = "",
+            ),
+            NavModel(
+                id = 3,
+                iconId = R.drawable.doctor,
+                destination = "",
+            ),
         )
 
-     //   storiesAdapter.submitList(stubStoriesList.toStoryDelegateItemList())
+        storiesAdapter.submitList(stubStoriesList.toStoryDelegateItemList())
         navAdapter.submitList(stubNavModelsList.toNavDelegateItemList())
 
     }
 
     private fun initAdapter() {
-       // storiesAdapter = MainAdapter()
+        storiesAdapter = MainAdapter()
         navAdapter = MainAdapter()
 
-//        storiesAdapter.apply {
-//            addDelegate(StoryDelegate())
-//        }
+        storiesAdapter.apply {
+            addDelegate(StoryDelegate())
+        }
         navAdapter.apply {
             addDelegate(NavDelegate())
         }
-       // binding.storiesList.adapter = storiesAdapter
+        binding.storiesList.adapter = storiesAdapter
         binding.navRecycler.adapter = navAdapter
     }
 }

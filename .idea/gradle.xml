@@ -7,16 +7,20 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="zulu-11" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/core-widgets" />
             <option value="$PROJECT_DIR$/home-module" />
+            <option value="$PROJECT_DIR$/maps-module" />
+            <option value="$PROJECT_DIR$/navigation-module" />
             <option value="$PROJECT_DIR$/pin-module" />
             <option value="$PROJECT_DIR$/profile-module" />
             <option value="$PROJECT_DIR$/recycler-utils" />
             <option value="$PROJECT_DIR$/services-module" />
+            <option value="$PROJECT_DIR$/ui-styles-module" />
           </set>
         </option>
       </GradleProjectSettings>

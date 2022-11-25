@@ -104,6 +104,11 @@
         <entry key="core-widgets/src/main/res/drawable/ic_star_black_24dp.xml" value="0.1" />
         <entry key="core-widgets/src/main/res/drawable/ic_star_border_black_24dp.xml" value="0.1" />
         <entry key="core-widgets/src/main/res/drawable/separator.xml" value="0.1" />
+        <entry key="home-module/src/main/res/layout/fragment_home.xml" value="0.22447916666666667" />
+        <entry key="home-module/src/main/res/layout/nav_card_item.xml" value="0.22447916666666667" />
+        <entry key="home-module/src/main/res/layout/new_nav_card_item.xml" value="0.2234375" />
+        <entry key="home-module/src/main/res/layout/stories_wrap_item.xml" value="0.22447916666666667" />
+        <entry key="home-module/src/main/res/layout/strories_card_item.xml" value="0.3115076700846355" />
         <entry key="pin-module/src/main/res/layout/activity_pin.xml" value="0.22083333333333333" />
         <entry key="pin-module/src/main/res/layout/fragment_pin.xml" value="0.13489583333333333" />
         <entry key="profile-module/src/main/res/drawable/ic_add_user.xml" value="0.1035" />
@@ -116,6 +121,7 @@
         <entry key="profile-module/src/main/res/layout/fragment_profile.xml" value="0.18072916666666666" />
         <entry key="profile-module/src/main/res/layout/fragment_sign_in.xml" value="0.134375" />
         <entry key="services-module/src/main/res/layout/listing_item.xml" value="0.12864583333333332" />
+        <entry key="ui-styles-module/src/main/res/drawable/bg_roundrect_ripple_light_border.xml" value="0.1" />
       </map>
     </option>
   </component>
