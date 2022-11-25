@@ -6,7 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.home.module.databinding.FragmentHomeBinding
+import com.example.home.module.recycler.mappers.toNavDelegateItemList
 import com.example.home.module.recycler.mappers.toStoryDelegateItemList
+import com.example.home.module.recycler.nav.NavDelegate
 import com.example.home.module.recycler.nav.NavModel
 import com.example.home.module.recycler.stories.StoryDelegate
 import com.example.home.module.recycler.stories.StoryModel
@@ -27,6 +29,7 @@ class HomeFragment : Fragment() {
     private val binding get() = _binding!!
 
     private lateinit var storiesAdapter: MainAdapter
+    private lateinit var navAdapter: MainAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -89,7 +92,7 @@ class HomeFragment : Fragment() {
             ),
             NavModel(
                 id = 2,
-                iconId = R.drawable.doctor,
+                iconId = R.drawable.spcx,
                 destination = "",
             ),
             NavModel(
@@ -100,14 +103,21 @@ class HomeFragment : Fragment() {
         )
 
         storiesAdapter.submitList(stubStoriesList.toStoryDelegateItemList())
+        navAdapter.submitList(stubNavModelsList.toNavDelegateItemList())
+
     }
 
     private fun initAdapter() {
         storiesAdapter = MainAdapter()
+        navAdapter = MainAdapter()
 
         storiesAdapter.apply {
             addDelegate(StoryDelegate())
         }
-        binding.storiesList.adapter = storiesAdapter
+        navAdapter.apply {
+            addDelegate(NavDelegate())
+        }
+       // binding.storiesList.adapter = storiesAdapter
+        binding.navRecycler.adapter = navAdapter
     }
 }

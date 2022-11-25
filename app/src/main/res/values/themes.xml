@@ -1,19 +1,2 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.TakeTook2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">#0088FF</item>
-        <item name="colorPrimaryVariant">#BEEDFF</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="colorAccent">#98E0FB</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">#00AF9F</item>
-        <item name="colorSecondaryVariant">#9FFFFFFF</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <item name="cardBackgroundColor">#B0B0B1</item>
-
-        <!-- Customize your theme here. -->
-    </style>
 </resources>

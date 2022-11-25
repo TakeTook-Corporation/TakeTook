@@ -12,7 +12,7 @@
         android:roundIcon="@drawable/geography"
         android:supportsRtl="true"
         android:name=".App"
-        android:theme="@style/Theme.TakeTook2">
+        android:theme="@style/Theme.MainTheme">
         <activity
             android:name="com.example.taketook2.ui.profile.pin.PinActivity"
             android:exported="false" />

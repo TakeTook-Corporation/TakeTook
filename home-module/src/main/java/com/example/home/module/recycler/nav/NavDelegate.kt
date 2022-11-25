@@ -3,9 +3,6 @@ package com.example.home.module.recycler.nav
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.example.home.module.R
 import com.example.home.module.databinding.NavCardItemBinding
 import com.example.recycler_utils.AdapterDelegate
 import com.example.recycler_utils.DelegateItem
