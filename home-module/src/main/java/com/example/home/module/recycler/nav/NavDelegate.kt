@@ -3,7 +3,7 @@ package com.example.home.module.recycler.nav
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.home.module.databinding.NavCardItemBinding
+import com.example.home.module.databinding.NewNavCardItemBinding
 import com.example.recycler_utils.AdapterDelegate
 import com.example.recycler_utils.DelegateItem
 
@@ -13,7 +13,7 @@ import com.example.recycler_utils.DelegateItem
 class NavDelegate : AdapterDelegate {
 
     override fun onCreateViewHolder(parent: ViewGroup): RecyclerView.ViewHolder =
-        ViewHolder(NavCardItemBinding.inflate(LayoutInflater.from(parent.context), parent, false))
+        ViewHolder(NewNavCardItemBinding.inflate(LayoutInflater.from(parent.context), parent, false))
 
     override fun onBindViewHolder(
         holder: RecyclerView.ViewHolder,
@@ -25,13 +25,13 @@ class NavDelegate : AdapterDelegate {
 
     override fun isOfViewType(item: DelegateItem): Boolean = item is NavDelegateItem
 
-    class ViewHolder(private val binding: NavCardItemBinding) :
+    class ViewHolder(private val binding: NewNavCardItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(model: NavModel) {
             with(binding) {
-                image.setImageResource(model.iconId)
-                image.setOnClickListener {
+                icon.setImageResource(model.iconId)
+                icon.setOnClickListener {
 
                 }
             }

@@ -102,18 +102,18 @@ class HomeFragment : Fragment() {
             ),
         )
 
-        storiesAdapter.submitList(stubStoriesList.toStoryDelegateItemList())
+     //   storiesAdapter.submitList(stubStoriesList.toStoryDelegateItemList())
         navAdapter.submitList(stubNavModelsList.toNavDelegateItemList())
 
     }
 
     private fun initAdapter() {
-        storiesAdapter = MainAdapter()
+       // storiesAdapter = MainAdapter()
         navAdapter = MainAdapter()
 
-        storiesAdapter.apply {
-            addDelegate(StoryDelegate())
-        }
+//        storiesAdapter.apply {
+//            addDelegate(StoryDelegate())
+//        }
         navAdapter.apply {
             addDelegate(NavDelegate())
         }
