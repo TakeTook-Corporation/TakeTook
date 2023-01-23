@@ -1,6 +1,8 @@
 package com.example.services.module
 
+import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -36,91 +38,35 @@ class ServicesFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         initAdapter()
+        setListings()
+    }
 
-        val stubListings = listOf(
-            ListingModel(
-                id = 1,
-                title = "Футболка Sell-Cell фирменный мерч",
-                price = 700,
-                iconLink = STUB_ICON_URL,
-                city = "Масква",
-                usingAutomatSystem = false,
-            ),
-            ListingModel(
-                id = 2,
-                title = "Продам гараж",
-                price = 200000,
-                iconLink = STUB_ICON_URL,
-                city = "Дубайск",
-                usingAutomatSystem = true,
-            ),
-            ListingModel(
-                id = 1,
-                title = "Футболка Sell-Cell фирменный мерч",
-                price = 700,
-                iconLink = STUB_ICON_URL,
-                city = "Масква",
-                usingAutomatSystem = false,
-            ),
-            ListingModel(
-                id = 2,
-                title = "Продам гараж",
-                price = 200000,
-                iconLink = STUB_ICON_URL,
-                city = "Дубайск",
-                usingAutomatSystem = true,
-            ),
-            ListingModel(
-                id = 1,
-                title = "Футболка Sell-Cell фирменный мерч",
-                price = 700,
-                iconLink = STUB_ICON_URL,
-                city = "Масква",
-                usingAutomatSystem = false,
-            ),
-            ListingModel(
-                id = 2,
-                title = "Продам гараж",
-                price = 200000,
-                iconLink = STUB_ICON_URL,
-                city = "Дубайск",
-                usingAutomatSystem = true,
-            ),
-            ListingModel(
-                id = 1,
-                title = "Футболка Sell-Cell фирменный мерч",
-                price = 700,
-                iconLink = STUB_ICON_URL,
-                city = "Масква",
-                usingAutomatSystem = false,
-            ),
-            ListingModel(
-                id = 2,
-                title = "Продам гараж",
-                price = 200000,
-                iconLink = STUB_ICON_URL,
-                city = "Дубайск",
-                usingAutomatSystem = true,
-            ),
-            ListingModel(
-                id = 1,
-                title = "Футболка Sell-Cell фирменный мерч",
-                price = 700,
-                iconLink = STUB_ICON_URL,
-                city = "Масква",
-                usingAutomatSystem = false,
-            ),
-            ListingModel(
-                id = 2,
-                title = "Продам гараж",
-                price = 200000,
-                iconLink = STUB_ICON_URL,
-                city = "Дубайск",
-                usingAutomatSystem = true,
-            ),
-        )
+    @SuppressLint("NotifyDataSetChanged")
+    private fun setListings() {
+        val viewModel = ServicesViewModel()
+        val listings = ArrayList<ListingModel>()
 
-        listingsAdapter.submitList(stubListings.toListingDelegateItemList())
+        // у нас очень разное представление о модели... надо обсудить
+        viewModel.getAllListingsRaw() {
+            if (it != null) {
+                for (listing in it) {
+                    listings.add(
+                        ListingModel(
+                            id = listing.id.toInt(),
+                            title = listing.title,
+                            price = 20000,
+                            iconLink = STUB_ICON_URL,
+                            city = "Дубай",
+                            usingAutomatSystem = listing.active
+                        )
+                    )
+                }
+
+                listingsAdapter.submitList(listings.toListingDelegateItemList())
+            } else {
+                Log.d("API", "Listings are null")
+            }
+        }
     }
 
     private fun initAdapter() {
