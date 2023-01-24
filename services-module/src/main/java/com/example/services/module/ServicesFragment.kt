@@ -50,14 +50,15 @@ class ServicesFragment : Fragment() {
         viewModel.getAllListingsRaw() {
             if (it != null) {
                 for (listing in it) {
+                    Log.d("API", listing.iconLink)
                     listings.add(
                         ListingModel(
-                            id = listing.id.toInt(),
+                            id = listing.id,
                             title = listing.title,
-                            price = 20000,
-                            iconLink = STUB_ICON_URL,
-                            city = "Дубай",
-                            usingAutomatSystem = listing.active
+                            price = listing.price,
+                            iconLink = listing.iconLink,
+                            city = listing.city,
+                            usingAutomatSystem = listing.usingAutomate
                         )
                     )
                 }
