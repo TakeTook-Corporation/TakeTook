@@ -132,7 +132,7 @@ class HomeFragment : Fragment() {
         navAdapter.apply {
             addDelegate(NavDelegate())
         }
-        binding.storiesList.adapter = storiesAdapter
+//        binding.storiesList.adapter = storiesAdapter
         binding.navRecycler.adapter = navAdapter
     }
 }
